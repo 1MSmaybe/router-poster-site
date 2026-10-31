@@ -1,0 +1,13 @@
+{
+  "name": "router-poster-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Router Poster: TikTok login and confirmed publishing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
