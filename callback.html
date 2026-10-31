@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Authorization - Router Poster</title><style>body{font:16px/1.6 system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#1a1a2e}h1{font-size:28px}a{color:#5b4bd5}</style></head><body><h1>Authorization</h1>
+<p id="m">Waiting for TikTok...</p><pre id="c" style="white-space:pre-wrap;word-break:break-all;background:#f3f1ff;padding:12px;border-radius:8px"></pre>
+<script>
+var q=new URLSearchParams(location.search),c=q.get("code");
+document.getElementById("m").textContent=c?"Copy this code and give it to the tool that asked for it (it works once, for a few minutes):":(q.get("error_description")||"No code in the address.");
+if(c)document.getElementById("c").textContent=c;
+</script></body></html>
