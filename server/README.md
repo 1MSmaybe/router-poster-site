@@ -6,9 +6,9 @@ Node server for TikTok login and confirmed video publishing. No dependencies. Ne
 
 ```bash
 cd server
-export TIKTOK_CLIENT_KEY=...        # from TikTok Developers, Client key
-export TIKTOK_CLIENT_SECRET=...     # from TikTok Developers, Client secret
-export ADMIN_KEY=$(openssl rand -hex 24)   # any long random string, keep it secret
+export TIKTOK_CLIENT_KEY=sbawr474of4ne2fxkv        # from TikTok Developers, Client key
+export TIKTOK_CLIENT_SECRET= TtLKJQrRB1bMid4T4k3lIzk6zd04HcHU    # from TikTok Developers, Client secret
+export ADMIN_KEY=$(maybesarha)   # any long random string, keep it secret
 node index.js
 ```
 
